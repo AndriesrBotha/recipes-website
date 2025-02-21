@@ -1,6 +1,79 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family:"Montserrat", serif; 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+}
+/* Index start*/
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/italian\ banner.avif);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo{
+    color: #FFFFEC;
+    font-size: 30px;
+}
+span{
+    color: #FFB22C;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #FFFFEC;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+nav ul li a:hover{
+    color: #FFB22C;
+    transition: 1.2s;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media all and (max-width:620px) {
+    .links{
+        flex-wrap: nowrap;
+    }
+}
+@media all and (max-width:460px) {
+    .links{
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+}
+
+.banner-heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 35vh;
+}
+.banner-heading > h1{
+    font-size: 85px;
+    color: #FFFFEC;
+
+}
+
+.banner-heading > h1:hover{
+    color: #FFB22C;
+    transition: 1s;
 }
