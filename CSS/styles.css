@@ -80,7 +80,7 @@ nav ul li a:hover{
 
 .index-mid{
     display: flex;
-    height: 79vh;
+    height: 100%;
     width: 100%;
     align-items: center;
     background-color: #FFFFEC;
@@ -95,7 +95,7 @@ nav ul li a:hover{
     margin:15px;
 }
  .index-mid-heading2{
- color: orangered;
+ color: #034C53;
  margin: 30px;
  }
  .index-mid-pictures{
@@ -134,4 +134,27 @@ opacity: 1;
 .content h3 {
     font-size:50px;
     color:#FFB22C;
+}
+.index-bottom{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #034C53;
+    padding: 80px;
+}
+#bottom-para{
+    font-size: 25px;
+    font-family: "Montserrat", serif;
+    color: #FFFFEC;
+    font-weight: bold;
+    text-align: center;
+}
+
+#favicon{
+    margin-bottom: 95px;
+}
+
+ul{
+    margin: 20px;
 }
