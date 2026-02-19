@@ -25,6 +25,7 @@ nav{
 .logo{
     color: #FFFFEC;
     font-size: 30px;
+    text-decoration: none;
 }
 span{
     color: #FFB22C;
@@ -169,3 +170,4 @@ ul{
     background-size: cover;
     background-position: center;
 }
+
