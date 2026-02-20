@@ -94,10 +94,12 @@ nav ul li a:hover{
     font-size: 75px;
     letter-spacing: 10px;
     margin:15px;
+    text-decoration: underline;
 }
  .index-mid-heading2{
  color: #034C53;
  margin: 30px;
+ text-decoration: underline;
  }
  .index-mid-pictures{
     display: flex;
@@ -169,5 +171,18 @@ ul{
     url(../images/bolognese.jpeg);
     background-size: cover;
     background-position: center;
+}
+
+.bolognese-mid{
+    display: flex;
+    height:100vh ;
+    justify-content: center;
+}
+#bolognese-mid-heading{
+    font-family:"Lobster", sans-serif;
+    font-size: 75px;
+    letter-spacing: 10px;
+    margin:15px;
+    text-decoration: underline;
 }
 
