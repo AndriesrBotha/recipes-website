@@ -140,12 +140,13 @@ opacity: 1;
     color:#FFB22C;
 }
 .index-bottom{
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     width: 100%;
     background-color: #BFC9D1;
     padding: 80px;
+    flex-shrink: 0;
 }
 #bottom-para{
     font-size: 25px;
@@ -153,6 +154,7 @@ opacity: 1;
     color: #25343F;
     font-weight: bold;
     text-align: center;
+    justify-content: space-between;
 }
 
 #favicon{
@@ -178,7 +180,7 @@ ul{
     display: flex;
     height:100vh ;
     justify-content: center;
-    background-color: ;
+    background-color:#BFC9D1;
 }
 #bolognese-mid-heading{
     font-family:"Lobster", sans-serif;
