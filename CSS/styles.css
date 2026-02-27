@@ -8,161 +8,173 @@
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/italian\ banner.avif);
-    background-size: cover;
-    background-position: center;
+  background-size: cover;
+  background-position: center;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 40px;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.logo{
-    color: #FFFFEC;
-    font-size: 30px;
-    text-decoration: none;
-}
-span{
-    color: #FFB22C;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px 20px;
+.logo {
+  color: #ffffec;
+  font-size: 30px;
+  text-decoration: none;
 }
-nav ul li a{
-    color: #FFFFEC;
-    text-decoration: none;
-    font-weight: bold;
-    
-}
-nav ul li a:hover{
-    color: #FFB22C;
-    transition: 1.2s;
+span {
+  color: #ffb22c;
 }
 
-.links{
-    display: flex;
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: #ffffec;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: #ffb22c;
+  transition: 1.2s;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media all and (max-width: 620px) {
+  .links {
+    flex-wrap: nowrap;
+  }
+}
+@media all and (max-width: 460px) {
+  .links {
     flex-wrap: wrap;
-}
-@media all and (max-width:620px) {
-    .links{
-        flex-wrap: nowrap;
-    }
-}
-@media all and (max-width:460px) {
-    .links{
-        flex-wrap: wrap;
-        justify-content: flex-end;
-    }
+    justify-content: flex-end;
+  }
 }
 
-.banner-heading{
-    display: flex;
-    justify-content: center;
-    margin-top: 35vh;
+.banner-heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 35vh;
 }
-.banner-heading > h1{
-    font-size: 85px;
-    color: #FFFFEC;
-
-}
-
-.banner-heading > h1:hover{
-    color: #FFB22C;
-    transition: 1s;
+.banner-heading > h1 {
+  font-size: 85px;
+  color: #ffffec;
 }
 
-.index-mid{
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    align-items: center;
-    background-color:#25343F;
-    flex-direction: column;
-    margin-bottom: 0px;
+.banner-heading > h1:hover {
+  color: #ffb22c;
+  transition: 1s;
 }
-#index-mid-heading{
-    color: #FFB22C;
-    font-family:"Lobster", sans-serif;
-    font-size: 75px;
-    letter-spacing: 10px;
-    margin:15px;
-    text-decoration: underline;
+
+.index-mid {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  background-color: #25343f;
+  flex-direction: column;
+  margin-bottom: 0px;
+  flex: 1;
 }
- .index-mid-heading2{
-    color: #FFB22C;
- 
- margin: 30px;
- text-decoration: underline;
- }
- .index-mid-pictures{
-    display: flex;
-    width: 100%;
- }
+#index-mid-heading {
+  color: #ffb22c;
+  font-family: "Lobster", sans-serif;
+  font-size: 75px;
+  letter-spacing: 10px;
+  margin: 15px;
+  text-decoration: underline;
+}
+.index-mid-heading2 {
+  color: #ffb22c;
+  font-family: "Lobster", sans-serif;
+  font-size: 25px;
+  margin: 30px;
+  text-decoration: underline;
+}
+.bottom-span{
+font-family: "Lobster", sans-serif;
+color: #034c53;
+}
+
+.index-mid-pictures {
+  display: flex;
+  width: 100%;
+}
 .pic1 > img {
-    width: 100%;
+  width: 100%;
 }
 .pic2 > img {
-    width: 100%;
+  width: 100%;
 }
-.pic1{
-    position: relative;
+.pic1 {
+  position: relative;
 }
-.pic2{
-    position: relative;
+.pic2 {
+  position: relative;
 }
-.content{
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background:rgba(0, 0, 0, 0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: 0.6s;
+.content {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.6s;
 }
-.content:hover{
-opacity: 1;
+.content:hover {
+  opacity: 1;
 }
 
 .content h3 {
-    font-size:50px;
-    color:#FFB22C;
+  font-size: 50px;
+  color: #ffb22c;
 }
-.index-bottom{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: #BFC9D1;
-    padding: 80px;
-    flex-shrink: 0;
-}
-#bottom-para{
-    font-size: 25px;
-    font-family: "Montserrat", serif;
-    color: #25343F;
-    font-weight: bold;
-    text-align: center;
-    justify-content: space-between;
+.index-bottom {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #ffb22c;
+  padding: 80px;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
 }
 
-#favicon{
-    margin-bottom: 95px;
+#bottom-para {
+  font-size: 25px;
+  font-family: "Montserrat", serif;
+  color: #25343f;
+  font-weight: bold;
+  text-align: center;
+  border: 5px solid;
+  border-style: double;
+  padding: 15px;
 }
 
-ul{
-    margin: 20px;
+#bottom-favicon {
+  margin-bottom: 95px;
+  color: red;
+}
+
+ul {
+  margin: 20px;
 }
 
 /*Bolognese*/
@@ -170,24 +182,24 @@ ul{
 .hero-bolognese {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/bolognese.jpeg);
-    background-size: cover;
-    background-position: center;
+  background-size: cover;
+  background-position: center;
 }
 
-.bolognese-mid{
-    display: flex;
-    height:100vh ;
-    justify-content: center;
-    background-color:#BFC9D1;
+.bolognese-mid {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  background-color: #bfc9d1;
 }
-#bolognese-mid-heading{
-    font-family:"Lobster", sans-serif;
-    font-size: 75px;
-    letter-spacing: 10px;
-    margin:15px;
-    text-decoration: underline;
-    color: #034C53;
+#bolognese-mid-heading {
+  font-family: "Lobster", sans-serif;
+  font-size: 75px;
+  letter-spacing: 10px;
+  margin: 15px;
+  text-decoration: underline;
+  color: #034c53;
 }
-
