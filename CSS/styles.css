@@ -105,7 +105,7 @@ nav ul li a:hover {
 }
 .bottom-span{
 font-family: "Lobster", sans-serif;
-color: #034c53;
+color: #ffffec;
 }
 
 .index-mid-pictures {
@@ -170,7 +170,11 @@ color: #034c53;
 
 #bottom-favicon {
   margin-bottom: 95px;
-  color: red;
+  
+}
+.favicon{
+  width: 120px;
+  height: auto;
 }
 
 ul {
@@ -192,8 +196,9 @@ ul {
 .bolognese-mid {
   display: flex;
   height: 100vh;
-  justify-content: center;
+  align-items: center;
   background-color: #bfc9d1;
+  flex-direction: column;
 }
 #bolognese-mid-heading {
   font-family: "Lobster", sans-serif;
@@ -202,4 +207,11 @@ ul {
   margin: 15px;
   text-decoration: underline;
   color: #034c53;
+}
+.bolognese-mid-image{
+height: auto;
+width: 600px;
+border: 7px solid;
+border-style: double;
+border-color: #034c53;
 }
