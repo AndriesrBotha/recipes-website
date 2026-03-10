@@ -230,6 +230,13 @@ ul {
   margin: 15px;
   text-decoration: underline;
   color: #034c53;
+   opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s ease;
+}
+.bolognese-mid:hover #bolognese-mid-heading{
+  opacity: 1;
+  transform: translateY(0);
 }
 .bolognese-mid-image{
 height: auto;
