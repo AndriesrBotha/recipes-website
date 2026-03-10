@@ -80,13 +80,14 @@ nav ul li a:hover {
 
 .index-mid {
   display: flex;
-  height: 100%;
+  height: 100vh;        /* full viewport height */
   width: 100%;
   align-items: center;
+  justify-content: center;
   background-color: #25343f;
   flex-direction: column;
-  margin-bottom: 0px;
-  flex: 1;
+  position: relative;
+padding-bottom: 0px;
 }
 #index-mid-heading {
   color: #ffb22c;
@@ -102,6 +103,17 @@ nav ul li a:hover {
   font-size: 25px;
   margin: 30px;
   text-decoration: underline;
+}
+#index-mid-heading,
+.index-mid-heading2 {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s ease;
+}
+.index-mid:hover #index-mid-heading,
+.index-mid:hover .index-mid-heading2 {
+  opacity: 1;
+  transform: translateY(0);
 }
 .bottom-span{
 font-family: "Lobster", sans-serif;
