@@ -119,6 +119,14 @@ padding-bottom: 0px;
 font-family: "Lobster", sans-serif;
 color: #ffffec;
 }
+.spans{
+  color:#ffffec ;
+  font-size: 50px;
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+}
+
+
 
 .index-mid-pictures {
   display: flex;
