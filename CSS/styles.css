@@ -88,6 +88,7 @@ nav ul li a:hover {
   flex-direction: column;
   position: relative;
 padding-bottom: 0px;
+background-image: url(../images/index-mid-background.jpg);
 }
 #index-mid-heading {
   color: #ffb22c;
@@ -177,6 +178,7 @@ color: #ffffec;
   flex: 1;
   flex-direction: column;
   align-items: center;
+
 }
 
 #bottom-para {
@@ -231,6 +233,7 @@ ul {
   background-color: #bfc9d1;
   flex-direction: column;
   padding: 40px 20px;
+  background-image: url(../images/bolo-mid-background.avif);
 }
 #bolognese-mid-heading {
   font-family: "Lobster", sans-serif;
